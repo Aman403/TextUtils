@@ -38,7 +38,7 @@ function App() {
      }
   }
   return (
-    <Router>
+    <Router basename="/TextUtils">
   <Navbar title="TextUtils" mode={mode} toggleMode={togglemode}/>
   <Alert alert={alert}/>
   <TextForm heading="Enter the text to analyze" mode={mode} showAlert={showAlert}/>
